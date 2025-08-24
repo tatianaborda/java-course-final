@@ -62,6 +62,11 @@ java-course-final/
 ├── README.md
 └── .gitignore
 
+yaml
+Copiar
+Editar
+
+---
 
 ## 🏃‍♂️ Cómo Ejecutar
 
@@ -73,14 +78,16 @@ java-course-final/
 git clone https://github.com/tatianaborda/java-course-final.git
 cd java-course-final
 3️⃣ Compilar y ejecutar
-Desde tu IDE (IntelliJ) → Ejecuta la clase Main.
+Desde tu IDE (IntelliJ, Eclipse, VS Code) → Ejecuta la clase Main.
 
 Desde la terminal:
+
+bash
+Copiar
+Editar
 javac -d out src/**/*.java
 java -cp out Main
-
 🎯 Funcionalidades del Gestor de Tareas
-
 🔹 Versión Básica (Bloque 6)
 Agregar tareas
 
@@ -107,6 +114,7 @@ Stream API para filtrado y transformaciones
 
 📝 Conceptos Reforzados
 Bloque 6 – Colecciones y Arreglos
+
 Arrays (uni y multidimensionales)
 
 Manejo dinámico de colecciones con ArrayList
@@ -116,6 +124,7 @@ Uso de HashMap para búsquedas rápidas
 Iteración con for-each y lambdas simples
 
 Bloque 7 – Java Moderno
+
 Inferencia de tipos con var
 
 Records como alternativa a POJOs
@@ -129,6 +138,7 @@ Programación funcional básica con Stream API
 Manejo de recursos con try-with-resources
 
 🎓 Objetivos de Aprendizaje
+
 Con este proyecto aprenderás a:
 
 Manejar colecciones en Java con ejemplos prácticos
