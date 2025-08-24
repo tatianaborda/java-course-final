@@ -39,7 +39,7 @@ Este proyecto final aplica:
 
 ## 🛠️ Tecnologías y Características
 
-- **Java 17+**  
+- **Java 21**  
 - **Collections Framework** (`ArrayList`, `HashMap`)  
 - **Java Moderno**:
   - `var` (inferencia de tipos)  
@@ -53,15 +53,16 @@ Este proyecto final aplica:
 
 ## 📁 Estructura del Proyecto
 
+```
 java-course-final/
 ├── src/
-│ ├── basic/ # Implementación Bloque 6 (colecciones y arreglos)
-│ ├── modern/ # Implementación Bloque 7 (Java moderno)
-│ ├── models/ # Modelos de tareas
-│ └── utils/ # Clases de utilidad
+│   ├── basic/              # Implementación Bloque 6 (colecciones y arreglos)
+│   ├── modern/             # Implementación Bloque 7 (Java moderno)
+│   ├── models/             # Modelos de tareas
+│   └── utils/              # Clases de utilidad
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
@@ -75,91 +76,83 @@ java-course-final/
 ```bash
 git clone https://github.com/tatianaborda/java-course-final.git
 cd java-course-final
+```
 
 ### 3️⃣ Compilar y ejecutar
 
-Desde tu IDE (IntelliJ) → Ejecuta la clase Main.
-Desde la terminal:
+**Opción 1: Desde tu IDE (IntelliJ)** → Ejecuta la clase `Main`.
+
+**Opción 2: Desde la terminal:**
 ```bash
 javac -d out src/**/*.java
 java -cp out Main
+```
 
-🎯 Funcionalidades del Gestor de Tareas
+---
 
-🔹 Versión Básica (Bloque 6)
-Agregar tareas
+## 🎯 Funcionalidades del Gestor de Tareas
 
-Listar todas las tareas
+### 🔹 Versión Básica (Bloque 6)
+- ✅ Agregar tareas
+- ✅ Listar todas las tareas
+- ✅ Buscar por ID o título
+- ✅ Eliminar tareas
+- ✅ Uso de ArrayList y HashMap
 
-Buscar por ID o título
+### 🔹 Versión Moderna (Bloque 7)
+- 🚀 Misma funcionalidad con sintaxis moderna
+- 🚀 Uso de `var`
+- 🚀 Records para modelo de datos
+- 🚀 Lambdas para operaciones sobre colecciones
+- 🚀 Pattern matching para validaciones
+- 🚀 Stream API para filtrado y transformaciones
 
-Eliminar tareas
+---
 
-Uso de ArrayList y HashMap
+## 📝 Conceptos Reforzados
 
-🔹 Versión Moderna (Bloque 7)
-Misma funcionalidad con sintaxis moderna
+### Bloque 6 — Colecciones y Arreglos
+- Arrays (uni y multidimensionales)
+- Manejo dinámico de colecciones con ArrayList
+- Uso de HashMap para búsquedas rápidas
+- Iteración con for-each y lambdas simples
 
-Uso de var
+### Bloque 7 — Java Moderno
+- Inferencia de tipos con `var`
+- Records como alternativa a POJOs
+- Pattern Matching en switch
+- Expresiones lambda y referencias de métodos
+- Programación funcional básica con Stream API
+- Manejo de recursos con try-with-resources
 
-Records para modelo de datos
+---
 
-Lambdas para operaciones sobre colecciones
-
-Pattern matching para validaciones
-
-Stream API para filtrado y transformaciones
-
-📝 Conceptos Reforzados
-Bloque 6 – Colecciones y Arreglos
-
-Arrays (uni y multidimensionales)
-
-Manejo dinámico de colecciones con ArrayList
-
-Uso de HashMap para búsquedas rápidas
-
-Iteración con for-each y lambdas simples
-
-Bloque 7 – Java Moderno
-
-Inferencia de tipos con var
-
-Records como alternativa a POJOs
-
-Pattern Matching en switch
-
-Expresiones lambda y referencias de métodos
-
-Programación funcional básica con Stream API
-
-Manejo de recursos con try-with-resources
-
-🎓 Objetivos de Aprendizaje
+## 🎓 Objetivos de Aprendizaje
 
 Con este proyecto aprenderás a:
+- ✅ Manejar colecciones en Java con ejemplos prácticos
+- ✅ Comparar código tradicional vs. moderno
+- ✅ Implementar un CRUD en aplicaciones de consola
+- ✅ Aplicar principios de POO y buenas prácticas
+- ✅ Escribir código más limpio, expresivo y actualizado
 
-Manejar colecciones en Java con ejemplos prácticos
+---
 
-Comparar código tradicional vs. moderno
+## 👩‍🏫 Sobre la Instructora
 
-Implementar un CRUD en aplicaciones de consola
+Creado por **Tatiana Borda** para Código Facilito,  
+con el apoyo de **Microsoft**.
 
-Aplicar principios de POO y buenas prácticas
+- **GitHub**: [@tatianaborda](https://github.com/tatianaborda)
+- Software developer, web3 builder y creadora de contenido tech
+- Apasionada por el backend!
 
-Escribir código más limpio, expresivo y actualizado
+---
 
-👩‍🏫 Sobre la Instructora
-Creado por Tatiana Borda para Código Facilito,
-con el apoyo de Microsoft.
+## 📄 Licencia
 
-GitHub: @tatianaborda
-
-Software developer, web3 builder y creadora de contenido tech
-
-Apasionada por el backend!
-
-📄 Licencia
 Este proyecto es de uso educativo y está disponible bajo licencia MIT.
 
-⭐ Si este repositorio te ayudó a entender mejor Java, ¡dale una estrella! ⭐
+---
+
+⭐ **Si este repositorio te ayudó a entender mejor Java, ¡dale una estrella!** ⭐
