@@ -1,6 +1,6 @@
 # ☕ Proyecto Final - Curso **Java Profesional** (Bloques 6 y 7)
 
-[![Java](https://img.shields.io/badge/Java-17+-orange?logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-21-orange?logo=java&logoColor=white)](https://www.oracle.com/java/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Curso](https://img.shields.io/badge/Código%20Facilito-Java%20Profesional-blue)](https://codigofacilito.com/cursos/java-profesional)
 [![Powered by Microsoft](https://img.shields.io/badge/Powered%20by-Microsoft-0078D4?logo=microsoft&logoColor=white)](https://www.microsoft.com)
