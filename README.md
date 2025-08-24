@@ -62,9 +62,6 @@ java-course-final/
 ├── README.md
 └── .gitignore
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -74,20 +71,21 @@ Editar
 - Tener instalado **Java 21**
 
 ### 2️⃣ Clonar el repositorio
+
 ```bash
 git clone https://github.com/tatianaborda/java-course-final.git
 cd java-course-final
-3️⃣ Compilar y ejecutar
-Desde tu IDE (IntelliJ, Eclipse, VS Code) → Ejecuta la clase Main.
 
+### 3️⃣ Compilar y ejecutar
+
+Desde tu IDE (IntelliJ) → Ejecuta la clase Main.
 Desde la terminal:
-
-bash
-Copiar
-Editar
+```bash
 javac -d out src/**/*.java
 java -cp out Main
+
 🎯 Funcionalidades del Gestor de Tareas
+
 🔹 Versión Básica (Bloque 6)
 Agregar tareas
 
